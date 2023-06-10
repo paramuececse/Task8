@@ -1,0 +1,161 @@
+t8q1:
+
+public class T8Q1 {
+public static void main(String[] args) {
+	int a=10,b=20,c=3,d=4;
+	if(a+b > c+d) {
+		System.out.println("the sum of a+b is greater than c+d");
+	}
+	else {
+		System.out.println("the sum of a+b is less than c+d");
+	}
+	
+}
+}
+__________________________________________________________________________
+T8Q2:
+
+public class T8Q2 {
+
+	public static void main(String[] args) {
+		int a=10;
+		if(a%2==0) {
+			System.out.println("even");
+		}
+		else {
+			System.out.println("odd");
+		}
+
+	}
+
+}
+_______________________________________________________________
+t8q3:
+
+
+public class T8Q3 {
+
+	public static void main(String[] args) {
+		
+		for(int i=65;i<91;i++) {
+			System.out.print((char)i+" ");
+		}
+	
+	}
+
+}
+_________________________________________________________________
+t8q4:
+
+public class T8Q4 {
+
+	public static void main(String[] args) {
+		int a=10,b=20,temp;
+		temp=a;
+		a=b;
+		b=temp;
+		System.out.println(a);
+        System.out.println(b);
+	}
+
+}
+__________________________________________________________
+t8q5:
+import java.util.*;
+public class T8Q5 {
+
+	public static void main(String[] args) {
+		Scanner object=new Scanner(System.in);
+		int a=object.nextInt();
+		int flag=1;
+		for(int i=2;i<a/2;i++) {
+			if(a%i==0) {
+				flag=0;
+			}
+		}
+		if(flag==1) {
+			System.out.println("prime");
+		}
+		else {
+			System.out.println("not prime");
+		}
+	}
+
+}
+___________________________________________________________________________________
+________________________________________________________________
+T8Q6:
+
+public class T8Q6 {
+
+	public static void main(String[] args) {
+		int a=5,fact=1;
+		
+		for(int i=1;i<=5;i++) {
+			fact=fact*i;
+		}
+System.out.println(fact);
+	}
+
+}
+___________________________________________________
+T8Q7:
+
+public class T8Q7 {
+
+	public static void main(String[] args) {
+		String a="Guvi Guvi";
+		System.out.println(a.length());
+
+	}
+
+}
+__________________________________________________________
+T8Q8:
+
+public class T8Q8 {
+
+	public static void main(String[] args) {
+		String a="welcome to guvi";
+         for(int i=0;i<10;i++) {
+        	 System.out.println(a);
+         }
+	}
+
+}
+_________________________________________________________________
+t8q9:
+
+public class T8Q9 {
+
+	public static void main(String[] args) {
+		int a=65;
+		if(a<18) {
+			System.out.println("child");
+		}
+		 else if(a<60){
+			System.out.println("adult");
+		}
+		 else {
+			 System.out.println("senior citizen");
+		 }
+
+	}
+
+}
+________________________________________________________________________
+t8q10:
+public class TQ10 {
+
+	public static void main(String[] args) {
+		int count=1;
+		for(int i=0;i<10;i++) {
+			count++;
+			
+		}
+		System.out.println(count);
+
+	}
+
+}
+___________________________________________________________________________
